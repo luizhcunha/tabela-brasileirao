@@ -4,14 +4,16 @@ body{
 
 caption{
     font-size: xx-large;
-    color: wheat;
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 table.maintabela{
     border: 2px solid black;
     background-color: lightgray;
     margin: auto;
-    width: 80%; 
+    width: 60%; 
     text-align: center;
     margin-top: 20px;
 }
@@ -82,4 +84,44 @@ td.clubevermelho{
 
 }tr.time.borda-azul{
     border-left: 5px solid blue;
+
+}
+
+table tfoot{
+    border: 1px solid #3c4043;
+}
+div.quadrado{
+    width: 5px;
+    height: 10px;
+    color: blue;
+}
+
+.legenda table{
+    width: 700px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e9eaeb;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: gray;
+}
+
+.legenda th{
+    border-top: none;
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 700;
+}
+
+.legenda img{
+    width: 10px;
+}
+
+.legenda td{
+    border-top: none;
+    font-size: 1.1em;
+    height: 3px;
+    width: 50%;
 }
