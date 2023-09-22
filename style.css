@@ -109,7 +109,6 @@ div.quadrado{
 }
 
 .legenda th{
-    border-top: none;
     font-size: 1.1em;
     color: #000;
     font-weight: 700;
@@ -123,5 +122,5 @@ div.quadrado{
     border-top: none;
     font-size: 1.1em;
     height: 3px;
-    width: 50%;
+    width: 70%;
 }
